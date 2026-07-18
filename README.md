@@ -291,3 +291,16 @@ doi = {10.13140/RG.2.2.34477.45282},
 url = {https://doi.org/10.13140/RG.2.2.34477.45282}
 }
 ```
+
+# ToDo
+- [ ] Code
+  - [ ] Inference
+  - [ ] Score
+- [ ] README
+  - [x] Pipeline
+  - [x] Example
+  - [x] Results
+  - [ ] Setup
+  - [ ] Citation
+- [ ] Requirements
+
