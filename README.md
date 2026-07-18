@@ -277,6 +277,15 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
 </table>
 
 
+# Directory Structure
+```
+SED2Text
+  |___docs
+        |___Pipeline_scaled.png
+        |___prompts_scaled.png
+  |___LICENSE
+  |___README.md
+```
 
 # Citation
 This work has been submitted to the DCASE Workshop 2026 and is under review at present.\
