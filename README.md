@@ -1,4 +1,5 @@
 # Results
+Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.247$$; blue = best per row)
 <table>
   <thead>
     <tr>
