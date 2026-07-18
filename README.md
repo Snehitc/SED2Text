@@ -2,52 +2,120 @@
 <table>
   <thead>
     <tr>
-      <th>Metric</th>
-      <th>Prompt Format</th>
-      <th>SmolLM2-135M</th>
-      <th>SmolLM2-360M</th>
-      <th>Qwen2.5-0.5B</th>
-      <th>Qwen2.5-1.5B</th>
-      <th>SmolLM2-1.7B</th>
+      <th><p align="center">Metric</p></th>
+      <th><p align="center">Prompt Format</p></th>
+      <th><p align="center">SmolLM2-135M</p></th>
+      <th><p align="center">SmolLM2-360M</p></th>
+      <th><p align="center">Qwen2.5-0.5B</p></th>
+      <th><p align="center">Qwen2.5-1.5B</p></th>
+      <th><p align="center">SmolLM2-1.7B</p></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <!-- This cell will span 2 rows down -->
-      <td rowspan="4", style="text-align:center; vertical-align: middle"}>Temporal ordering  Accuracy  (ToA) ↑ </td>
-      <td style="text-align:center">Flat list</td>
-      <td>0.854</td>
-      <td>0.816</td>
-      <td>0.894</td>
-      <td>0.767</td>
-      <td>0.786</td>
+      <!-- Temporal ordering  Accuracy  (ToA) ↑ -->
+      <td rowspan="4"><p align="center">Temporal ordering  Accuracy  (ToA) ↑ </p></td>
+      <td><p align="center">Flat list</p></td>
+      <td><p align="center">0.854</p></td>
+      <td><p align="center">0.816</p></td>
+      <td><p align="center">0.894</p></td>
+      <td><p align="center">0.767</p></td>
+      <td><p align="center">0.786</p></td>
     </tr>
     <tr>
-      <!-- Do NOT add the first column here; it is covered by the rowspan above -->
-      <td>Temporal narrative</td>
-      <td>0.829</td>
-      <td>0.792</td>
-      <td>0.907</td>
-      <td>0.749</td>
-      <td>0.850</td>
+      <td><p align="center">Temporal narrative</p></td>
+      <td><p align="center">0.829</p></td>
+      <td><p align="center">0.792</p></td>
+      <td><p align="center">0.907</p></td>
+      <td><p align="center">0.749</p></td>
+      <td><p align="center">0.850</p></td>
     </tr>
     <tr>
-      <td>Scene-structured</td>
-      <td>0.776</td>
-      <td>0.657</td>
-      <td>0.791</td>
-      <td>0.763</td>
-      <td>0.759</td>
+      <td><p align="center">Scene-structured</p></td>
+      <td><p align="center">0.776</p></td>
+      <td><p align="center">0.657</p></td>
+      <td><p align="center">0.791</p></td>
+      <td><p align="center">0.763</p></td>
+      <td><p align="center">0.759</p></td>
     </tr>
     <tr>
-      <td>Chain-of-Thought (CoT)</td>
-      <td>0.816</td>
-      <td>0.857</td>
-      <td>0.762</td>
-      <td>0.683</td>
-      <td>0.881</td>
+      <td><p align="center">Chain-of-Thought (CoT)</p></td>
+      <td><p align="center">0.816</p></td>
+      <td><p align="center">0.857</p></td>
+      <td><p align="center">0.762</p></td>
+      <td><p align="center">0.683</p></td>
+      <td><p align="center">0.881</p></td>
+    </tr>
+    <tr>
+      <!-- Hallucination Density (HD) ↓ -->
+      <td rowspan="4"><p align="center">Hallucination Density (HD) ↓ </p></td>
+      <td><p align="center">Flat list</p></td>
+      <td><p align="center">0.556</p></td>
+      <td><p align="center">0.509</p></td>
+      <td><p align="center">0.567</p></td>
+      <td><p align="center">0.554</p></td>
+      <td><p align="center">0.534</p></td>
+    </tr>
+    <tr>
+      <td><p align="center">Temporal narrative</p></td>
+      <td><p align="center">0.546</p></td>
+      <td><p align="center">0.473</p></td>
+      <td><p align="center">0.420</p></td>
+      <td><p align="center">0.553</p></td>
+      <td><p align="center">0.467</p></td>
+    </tr>
+    <tr>
+      <td><p align="center">Scene-structured</p></td>
+      <td><p align="center">0.595</p></td>
+      <td><p align="center">0.527</p></td>
+      <td><p align="center">0.473</p></td>
+      <td><p align="center">0.537</p></td>
+      <td><p align="center">0.505</p></td>
+    </tr>
+    <tr>
+      <td><p align="center">Chain-of-Thought (CoT)</p></td>
+      <td><p align="center">0.514</p></td>
+      <td><p align="center">0.414</p></td>
+      <td><p align="center">0.396</p></td>
+      <td><p align="center">0.479</p></td>
+      <td><p align="center">0.432</p></td>
+    </tr>
+    <tr>
+      <!-- Precision ↑ -->
+      <td rowspan="4"><p align="center">Precision ↑</p></td>
+      <td><p align="center">Flat list</p></td>
+      <td><p align="center">0.164</p></td>
+      <td><p align="center">0.217</p></td>
+      <td><p align="center">0.187</p></td>
+      <td><p align="center">0.139</p></td>
+      <td><p align="center">0.190</p></td>
+    </tr>
+    <tr>
+      <td><p align="center">Temporal narrative</p></td>
+      <td><p align="center">0.104</p></td>
+      <td><p align="center">0.128</p></td>
+      <td><p align="center">0.174</p></td>
+      <td><p align="center">0.106</p></td>
+      <td><p align="center">0.163</p></td>
+    </tr>
+    <tr>
+      <td><p align="center">Scene-structured</p></td>
+      <td><p align="center">0.094</p></td>
+      <td><p align="center">0.127</p></td>
+      <td><p align="center">0.188</p></td>
+      <td><p align="center">0.112</p></td>
+      <td><p align="center">0.138</p></td>
+    </tr>
+    <tr>
+      <td><p align="center">Chain-of-Thought (CoT)</p></td>
+      <td><p align="center">0.101</p></td>
+      <td><p align="center">0.088</p></td>
+      <td><p align="center">0.102</p></td>
+      <td><p align="center">0.061</p></td>
+      <td><p align="center">0.092</p></td>
     </tr>
   </tbody>
+
 </table>
 
 <table>
