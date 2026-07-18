@@ -18,7 +18,7 @@
       <td><p align="center">Flat list</p></td>
       <td><p align="center">0.854</p></td>
       <td><p align="center">0.816</p></td>
-      <td><p align="center">0.894</p></td>
+      <td><p align="center">$${\color{blue}0.894}$$</p></td>
       <td><p align="center">0.767</p></td>
       <td><p align="center">0.786</p></td>
     </tr>
@@ -26,7 +26,7 @@
       <td><p align="center">Temporal narrative</p></td>
       <td><p align="center">0.829</p></td>
       <td><p align="center">0.792</p></td>
-      <td><p align="center">0.907</p></td>
+      <td><p align="center">$${\color{blue}0.907}$$</p></td>
       <td><p align="center">0.749</p></td>
       <td><p align="center">0.850</p></td>
     </tr>
@@ -34,7 +34,7 @@
       <td><p align="center">Scene-structured</p></td>
       <td><p align="center">0.776</p></td>
       <td><p align="center">0.657</p></td>
-      <td><p align="center">0.791</p></td>
+      <td><p align="center">$${\color{blue}0.791}$$</p></td>
       <td><p align="center">0.763</p></td>
       <td><p align="center">0.759</p></td>
     </tr>
@@ -44,14 +44,14 @@
       <td><p align="center">0.857</p></td>
       <td><p align="center">0.762</p></td>
       <td><p align="center">0.683</p></td>
-      <td><p align="center">0.881</p></td>
+      <td><p align="center">$${\color{blue}0.881}$$</p></td>
     </tr>
     <!-- Hallucination Density (HD) ↓ -->
     <tr>
       <td rowspan="4"><p align="center">Hallucination <br> Density <br> (HD) ↓ </p></td>
       <td><p align="center">Flat list</p></td>
       <td><p align="center">0.556</p></td>
-      <td><p align="center">0.509</p></td>
+      <td><p align="center">$${\color{blue}0.509}$$</p></td>
       <td><p align="center">0.567</p></td>
       <td><p align="center">0.554</p></td>
       <td><p align="center">0.534</p></td>
@@ -60,7 +60,7 @@
       <td><p align="center">Temporal narrative</p></td>
       <td><p align="center">0.546</p></td>
       <td><p align="center">0.473</p></td>
-      <td><p align="center">0.420</p></td>
+      <td><p align="center">$${\color{blue}0.420}$$</p></td>
       <td><p align="center">0.553</p></td>
       <td><p align="center">0.467</p></td>
     </tr>
@@ -68,7 +68,7 @@
       <td><p align="center">Scene-structured</p></td>
       <td><p align="center">0.595</p></td>
       <td><p align="center">0.527</p></td>
-      <td><p align="center">0.473</p></td>
+      <td><p align="center">$${\color{blue}0.473}$$</p></td>
       <td><p align="center">0.537</p></td>
       <td><p align="center">0.505</p></td>
     </tr>
@@ -76,7 +76,7 @@
       <td><p align="center">Chain-of-Thought</p></td>
       <td><p align="center">0.514</p></td>
       <td><p align="center">0.414</p></td>
-      <td><p align="center">0.396</p></td>
+      <td><p align="center">$${\color{blue}0.396}$$</p></td>
       <td><p align="center">0.479</p></td>
       <td><p align="center">0.432</p></td>
     </tr>
@@ -85,7 +85,7 @@
       <td rowspan="4"><p align="center">Precision ↑</p></td>
       <td><p align="center">Flat list</p></td>
       <td><p align="center">0.164</p></td>
-      <td><p align="center">0.217</p></td>
+      <td><p align="center">$${\color{blue}0.217}$$</p></td>
       <td><p align="center">0.187</p></td>
       <td><p align="center">0.139</p></td>
       <td><p align="center">0.190</p></td>
@@ -94,7 +94,7 @@
       <td><p align="center">Temporal narrative</p></td>
       <td><p align="center">0.104</p></td>
       <td><p align="center">0.128</p></td>
-      <td><p align="center">0.174</p></td>
+      <td><p align="center">$${\color{blue}0.174}$$</p></td>
       <td><p align="center">0.106</p></td>
       <td><p align="center">0.163</p></td>
     </tr>
@@ -102,7 +102,7 @@
       <td><p align="center">Scene-structured</p></td>
       <td><p align="center">0.094</p></td>
       <td><p align="center">0.127</p></td>
-      <td><p align="center">0.188</p></td>
+      <td><p align="center">$${\color{blue}0.188}$$</p></td>
       <td><p align="center">0.112</p></td>
       <td><p align="center">0.138</p></td>
     </tr>
@@ -110,7 +110,7 @@
       <td><p align="center">Chain-of-Thought</p></td>
       <td><p align="center">0.101</p></td>
       <td><p align="center">0.088</p></td>
-      <td><p align="center">0.102</p></td>
+      <td><p align="center">$${\color{blue}0.102}$$</p></td>
       <td><p align="center">0.061</p></td>
       <td><p align="center">0.092</p></td>
     </tr>
@@ -119,7 +119,7 @@
       <td rowspan="4"><p align="center">Recall ↑</p></td>
       <td><p align="center">Flat list</p></td>
       <td><p align="center">0.548</p></td>
-      <td><p align="center">0.675</p></td>
+      <td><p align="center">$${\color{blue}0.675}$$</p></td>
       <td><p align="center">0.541</p></td>
       <td><p align="center">0.447</p></td>
       <td><p align="center">0.535</p></td>
@@ -130,7 +130,7 @@
       <td><p align="center">0.792</p></td>
       <td><p align="center">0.814</p></td>
       <td><p align="center">0.713</p></td>
-      <td><p align="center">0.879</p></td>
+      <td><p align="center">$${\color{blue}0.879}$$</p></td>
     </tr>
     <tr>
       <td><p align="center">Scene-structured</p></td>
@@ -146,13 +146,13 @@
       <td><p align="center">0.815</p></td>
       <td><p align="center">0.889</p></td>
       <td><p align="center">0.918</p></td>
-      <td><p align="center">0.984</p></td>
+      <td><p align="center">$${\color{blue}0.984}$$</p></td>
     </tr>
       <!-- F1 ↑ -->
       <td rowspan="4"><p align="center">F1 ↑</p></td>
       <td><p align="center">Flat list</p></td>
       <td><p align="center">0.240</p></td>
-      <td><p align="center">0.314</p></td>
+      <td><p align="center">$${\color{blue}0.314}$$</p></td>
       <td><p align="center">0.265</p></td>
       <td><p align="center">0.199</p></td>
       <td><p align="center">0.266</p></td>
@@ -161,7 +161,7 @@
       <td><p align="center">Temporal narrative</p></td>
       <td><p align="center">0.177</p></td>
       <td><p align="center">0.214</p></td>
-      <td><p align="center">0.274</p></td>
+      <td><p align="center">$${\color{blue}0.274}$$</p></td>
       <td><p align="center">0.180</p></td>
       <td><p align="center">0.268</p></td>
     </tr>
@@ -169,7 +169,7 @@
       <td><p align="center">Scene-structured</p></td>
       <td><p align="center">0.160</p></td>
       <td><p align="center">0.214</p></td>
-      <td><p align="center">0.295</p></td>
+      <td><p align="center">$${\color{blue}0.295}$$</p></td>
       <td><p align="center">0.189</p></td>
       <td><p align="center">0.230</p></td>
     </tr>
@@ -177,12 +177,12 @@
       <td><p align="center">Chain-of-Thought</p></td>
       <td><p align="center">0.174</p></td>
       <td><p align="center">0.156</p></td>
-      <td><p align="center">0.178</p></td>
+      <td><p align="center">$${\color{blue}0.178}$$</p></td>
       <td><p align="center">0.113</p></td>
       <td><p align="center">0.166</p></td>
     </tr>
       <!-- avg. M -->
-      <td rowspan="4"><p align="center">avg. $\mathcal{M}$</p></td>
+      <td rowspan="4"><p align="center">avg. $$\mathcal{M}$$</p></td>
       <td><p align="center">Flat list</p></td>
       <td><p align="center">12.359</p></td>
       <td><p align="center">12.116</p></td>
@@ -215,7 +215,7 @@
       <td><p align="center">45.201</p></td>
     </tr>
       <!-- M/L ratio -->
-      <td rowspan="4"><p align="center">$\mathcal{M}/\mathcal{L}$ ratio</p></td>
+      <td rowspan="4"><p align="center">$$\mathcal{M}/\mathcal{L}$$ ratio</p></td>
       <td><p align="center">Flat list</p></td>
       <td><p align="center">3.810</p></td>
       <td><p align="center">3.722</p></td>
