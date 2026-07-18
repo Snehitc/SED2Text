@@ -136,7 +136,7 @@
       <td><p align="center">Scene-structured</p></td>
       <td><p align="center">0.663</p></td>
       <td><p align="center">0.792</p></td>
-      <td><p align="center">0.833</p></td>
+      <td><p align="center">$${\color{blue}0.833}$$</p></td>
       <td><p align="center">0.726</p></td>
       <td><p align="center">0.827</p></td>
     </tr>
@@ -148,7 +148,8 @@
       <td><p align="center">0.918</p></td>
       <td><p align="center">$${\color{blue}0.984}$$</p></td>
     </tr>
-      <!-- F1 ↑ -->
+    <!-- F1 ↑ -->
+    <tr>
       <td rowspan="4"><p align="center">F1 ↑</p></td>
       <td><p align="center">Flat list</p></td>
       <td><p align="center">0.240</p></td>
@@ -181,7 +182,11 @@
       <td><p align="center">0.113</p></td>
       <td><p align="center">0.166</p></td>
     </tr>
-      <!-- avg. M -->
+    <tr>
+      <td colspan="7"></td>
+    </tr>
+    <!-- avg. M -->
+    <tr>
       <td rowspan="4"><p align="center">avg. $$\mathcal{M}$$</p></td>
       <td><p align="center">Flat list</p></td>
       <td><p align="center">12.359</p></td>
@@ -214,7 +219,8 @@
       <td><p align="center">62.235</p></td>
       <td><p align="center">45.201</p></td>
     </tr>
-      <!-- M/L ratio -->
+    <!-- M/L ratio -->
+    <tr>
       <td rowspan="4"><p align="center">$$\mathcal{M}/\mathcal{L}$$ ratio</p></td>
       <td><p align="center">Flat list</p></td>
       <td><p align="center">3.810</p></td>
