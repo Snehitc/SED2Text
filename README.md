@@ -1,3 +1,21 @@
+# SED2Text
+# 🚧 Under Construction 🚧
+
+- The updates to this repository are yet to be finished.
+- The `Under Construction` tag will be removed once updates are completed.
+
+# Pipeline 
+> 1. PretrainedSED: BEATs-based,
+> 2. LM: Qwen2.5-1.5B-Instruct
+
+![Pipeline](docs/Pipeline_scaled.png)
+
+# Example: All prompt types
+> Prompt type - Flat List, Temporal Narrative, Scene Structured, Chain-of-Thought (CoT)\
+> LM: Qwen2.5-0.5B-Instruct
+
+![Prompt](docs/prompts_scaled.png)
+
 # Results
 Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.247$$; blue = best per row)
 <table>
@@ -260,25 +278,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
 
 
 
-# SED2Text
-# 🚧 Under Construction 🚧
-
-- The updates to this repository are yet to be finished.
-- The `Under Construction` tag will be removed once updates are completed.
-
-# Pipeline 
-> 1. PretrainedSED: BEATs-based,
-> 2. LM: Qwen2.5-1.5B-Instruct
-
-![Pipeline](docs/Pipeline_scaled.png)
-
-# Example: All prompt types
-> Prompt type - Flat List, Temporal Narrative, Scene Structured, Chain-of-Thought (CoT)\
-> LM: Qwen2.5-0.5B-Instruct
-
-![Prompt](docs/prompts_scaled.png)
-
-### Citation
+# Citation
 Preprint is available with the following citation
 ```
 @unknown{SED2Text,
