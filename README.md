@@ -182,7 +182,7 @@
       <td><p align="center">0.166</p></td>
     </tr>
       <!-- avg. M -->
-      <td rowspan="4"><p align="center">avg. M</p></td>
+      <td rowspan="4"><p align="center">avg. $\mathcal{M}$</p></td>
       <td><p align="center">Flat list</p></td>
       <td><p align="center">12.359</p></td>
       <td><p align="center">12.116</p></td>
@@ -215,7 +215,7 @@
       <td><p align="center">45.201</p></td>
     </tr>
       <!-- M/L ratio -->
-      <td rowspan="4"><p align="center">M/L ratio</p></td>
+      <td rowspan="4"><p align="center">$\mathcal{M}/\mathcal{L}$ ratio</p></td>
       <td><p align="center">Flat list</p></td>
       <td><p align="center">3.810</p></td>
       <td><p align="center">3.722</p></td>
@@ -232,7 +232,7 @@
       <td><p align="center">6.740</p></td>
     </tr>
     <tr>
-      <td><p align="center">Scene-structured</p></td> 8.553 7.909 5.749 7.931 3.230
+      <td><p align="center">Scene-structured</p></td>
       <td><p align="center">8.553</p></td>
       <td><p align="center">7.909</p></td>
       <td><p align="center">5.749</p></td>
@@ -251,20 +251,6 @@
 
 </table>
 
-<table>
-  <thead>
-    <tr>
-      <th><p align="center">Header 1</p></th>
-      <th><p align="center">Header 2</p></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p align="center">Centered & Middle Text</p></td>
-      <td><p align="center">More Centered Text</p></td>
-    </tr>
-  </tbody>
-</table>
 
 
 # SED2Text
