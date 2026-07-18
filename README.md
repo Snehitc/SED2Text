@@ -14,7 +14,7 @@
   <tbody>
     <!-- Temporal ordering  Accuracy  (ToA) ↑ -->
     <tr>
-      <td rowspan="4"><p align="center">Temporal ordering  Accuracy  (ToA) ↑ </p></td>
+      <td rowspan="4"><p align="center">Temporal <br> ordering <br> Accuracy <br> (ToA) ↑ </p></td>
       <td><p align="center">Flat list</p></td>
       <td><p align="center">0.854</p></td>
       <td><p align="center">0.816</p></td>
@@ -48,7 +48,7 @@
     </tr>
     <!-- Hallucination Density (HD) ↓ -->
     <tr>
-      <td rowspan="4"><p align="center">Hallucination Density (HD) ↓ </p></td>
+      <td rowspan="4"><p align="center">Hallucination <br> Density <br> (HD) ↓ </p></td>
       <td><p align="center">Flat list</p></td>
       <td><p align="center">0.556</p></td>
       <td><p align="center">0.509</p></td>
@@ -180,6 +180,72 @@
       <td><p align="center">0.178</p></td>
       <td><p align="center">0.113</p></td>
       <td><p align="center">0.166</p></td>
+    </tr>
+      <!-- avg. M -->
+      <td rowspan="4"><p align="center">avg. M</p></td>
+      <td><p align="center">Flat list</p></td>
+      <td><p align="center">12.359</p></td>
+      <td><p align="center">12.116</p></td>
+      <td><p align="center">11.016</p></td>
+      <td><p align="center">11.896</p></td>
+      <td><p align="center">10.663</p></td>
+    </tr>
+    <tr>
+      <td><p align="center">Temporal narrative</p></td>
+      <td><p align="center">26.062</p></td>
+      <td><p align="center">25.586</p></td>
+      <td><p align="center">20.130</p></td>
+      <td><p align="center">26.683</p></td>
+      <td><p align="center">22.068</p></td>
+    </tr>
+    <tr>
+      <td><p align="center">Scene-structured</p></td>
+      <td><p align="center">27.491</p></td>
+      <td><p align="center">25.694</p></td>
+      <td><p align="center">19.179</p></td>
+      <td><p align="center">26.121</p></td>
+      <td><p align="center">24.293</p></td>
+    </tr>
+    <tr>
+      <td><p align="center">Chain-of-Thought</p></td>
+      <td><p align="center">39.715</p></td>
+      <td><p align="center">37.485</p></td>
+      <td><p align="center">38.352</p></td>
+      <td><p align="center">62.235</p></td>
+      <td><p align="center">45.201</p></td>
+    </tr>
+      <!-- M/L ratio -->
+      <td rowspan="4"><p align="center">M/L ratio</p></td>
+      <td><p align="center">Flat list</p></td>
+      <td><p align="center">3.810</p></td>
+      <td><p align="center">3.722</p></td>
+      <td><p align="center">3.303</p></td>
+      <td><p align="center">3.764</p></td>
+      <td><p align="center">3.230</p></td>
+    </tr>
+    <tr>
+      <td><p align="center">Temporal narrative</p></td>
+      <td><p align="center">8.046</p></td>
+      <td><p align="center">7.929</p></td>
+      <td><p align="center">6.390</p></td>
+      <td><p align="center">8.269</p></td>
+      <td><p align="center">6.740</p></td>
+    </tr>
+    <tr>
+      <td><p align="center">Scene-structured</p></td> 8.553 7.909 5.749 7.931 3.230
+      <td><p align="center">8.553</p></td>
+      <td><p align="center">7.909</p></td>
+      <td><p align="center">5.749</p></td>
+      <td><p align="center">7.931</p></td>
+      <td><p align="center">3.230</p></td>
+    </tr>
+    <tr>
+      <td><p align="center">Chain-of-Thought</p></td>
+      <td><p align="center">12.416</p></td>
+      <td><p align="center">11.161</p></td>
+      <td><p align="center">12.007</p></td>
+      <td><p align="center">17.743</p></td>
+      <td><p align="center">13.165</p></td>
     </tr>
   </tbody>
 
