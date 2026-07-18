@@ -279,6 +279,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
 
 
 # Citation
+This work has been submitted to the DCASE Workshop 2026 and is under review at present
 Preprint is available with the following citation
 ```
 @unknown{SED2Text,
