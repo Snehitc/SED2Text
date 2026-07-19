@@ -34,7 +34,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
     <!-- Temporal ordering  Accuracy  (ToA) ↑ -->
     <tr>
       <td rowspan="4"><p align="center">Temporal <br> ordering <br> Accuracy <br> (ToA) ↑ </p></td>
-      <td><p align="center">Flat list</p></td>
+      <td><p align="center">Flat</p></td>
       <td><p align="center">0.854</p></td>
       <td><p align="center">0.816</p></td>
       <td><p align="center">$${\color{blue}0.894}$$</p></td>
@@ -42,7 +42,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.786</p></td>
     </tr>
     <tr>
-      <td><p align="center">Temporal narrative</p></td>
+      <td><p align="center">Temporal</p></td>
       <td><p align="center">0.829</p></td>
       <td><p align="center">0.792</p></td>
       <td><p align="center">$${\color{blue}0.907}$$</p></td>
@@ -50,7 +50,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.850</p></td>
     </tr>
     <tr>
-      <td><p align="center">Scene-structured</p></td>
+      <td><p align="center">Scene</p></td>
       <td><p align="center">0.776</p></td>
       <td><p align="center">0.657</p></td>
       <td><p align="center">$${\color{blue}0.791}$$</p></td>
@@ -58,7 +58,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.759</p></td>
     </tr>
     <tr>
-      <td><p align="center">Chain-of-Thought</p></td>
+      <td><p align="center">CoT</p></td>
       <td><p align="center">0.816</p></td>
       <td><p align="center">0.857</p></td>
       <td><p align="center">0.762</p></td>
@@ -68,7 +68,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
     <!-- Hallucination Density (HD) ↓ -->
     <tr>
       <td rowspan="4"><p align="center">Hallucination <br> Density <br> (HD) ↓ </p></td>
-      <td><p align="center">Flat list</p></td>
+      <td><p align="center">Flat</p></td>
       <td><p align="center">0.556</p></td>
       <td><p align="center">$${\color{blue}0.509}$$</p></td>
       <td><p align="center">0.567</p></td>
@@ -76,7 +76,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.534</p></td>
     </tr>
     <tr>
-      <td><p align="center">Temporal narrative</p></td>
+      <td><p align="center">Temporal</p></td>
       <td><p align="center">0.546</p></td>
       <td><p align="center">0.473</p></td>
       <td><p align="center">$${\color{blue}0.420}$$</p></td>
@@ -84,7 +84,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.467</p></td>
     </tr>
     <tr>
-      <td><p align="center">Scene-structured</p></td>
+      <td><p align="center">Scene</p></td>
       <td><p align="center">0.595</p></td>
       <td><p align="center">0.527</p></td>
       <td><p align="center">$${\color{blue}0.473}$$</p></td>
@@ -92,7 +92,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.505</p></td>
     </tr>
     <tr>
-      <td><p align="center">Chain-of-Thought</p></td>
+      <td><p align="center">CoT</p></td>
       <td><p align="center">0.514</p></td>
       <td><p align="center">0.414</p></td>
       <td><p align="center">$${\color{blue}0.396}$$</p></td>
@@ -102,7 +102,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
     <!-- Precision ↑ -->
     <tr>
       <td rowspan="4"><p align="center">Precision ↑</p></td>
-      <td><p align="center">Flat list</p></td>
+      <td><p align="center">Flat</p></td>
       <td><p align="center">0.164</p></td>
       <td><p align="center">$${\color{blue}0.217}$$</p></td>
       <td><p align="center">0.187</p></td>
@@ -110,7 +110,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.190</p></td>
     </tr>
     <tr>
-      <td><p align="center">Temporal narrative</p></td>
+      <td><p align="center">Temporal</p></td>
       <td><p align="center">0.104</p></td>
       <td><p align="center">0.128</p></td>
       <td><p align="center">$${\color{blue}0.174}$$</p></td>
@@ -118,7 +118,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.163</p></td>
     </tr>
     <tr>
-      <td><p align="center">Scene-structured</p></td>
+      <td><p align="center">Scene</p></td>
       <td><p align="center">0.094</p></td>
       <td><p align="center">0.127</p></td>
       <td><p align="center">$${\color{blue}0.188}$$</p></td>
@@ -126,7 +126,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.138</p></td>
     </tr>
     <tr>
-      <td><p align="center">Chain-of-Thought</p></td>
+      <td><p align="center">CoT</p></td>
       <td><p align="center">0.101</p></td>
       <td><p align="center">0.088</p></td>
       <td><p align="center">$${\color{blue}0.102}$$</p></td>
@@ -136,7 +136,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
     <tr>
       <!-- Recall ↑ -->
       <td rowspan="4"><p align="center">Recall ↑</p></td>
-      <td><p align="center">Flat list</p></td>
+      <td><p align="center">Flat</p></td>
       <td><p align="center">0.548</p></td>
       <td><p align="center">$${\color{blue}0.675}$$</p></td>
       <td><p align="center">0.541</p></td>
@@ -144,7 +144,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.535</p></td>
     </tr>
     <tr>
-      <td><p align="center">Temporal narrative</p></td>
+      <td><p align="center">Temporal</p></td>
       <td><p align="center">0.686</p></td>
       <td><p align="center">0.792</p></td>
       <td><p align="center">0.814</p></td>
@@ -152,7 +152,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">$${\color{blue}0.879}$$</p></td>
     </tr>
     <tr>
-      <td><p align="center">Scene-structured</p></td>
+      <td><p align="center">Scene</p></td>
       <td><p align="center">0.663</p></td>
       <td><p align="center">0.792</p></td>
       <td><p align="center">$${\color{blue}0.833}$$</p></td>
@@ -160,7 +160,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.827</p></td>
     </tr>
     <tr>
-      <td><p align="center">Chain-of-Thought</p></td>
+      <td><p align="center">CoT</p></td>
       <td><p align="center">0.852</p></td>
       <td><p align="center">0.815</p></td>
       <td><p align="center">0.889</p></td>
@@ -170,7 +170,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
     <!-- F1 ↑ -->
     <tr>
       <td rowspan="4"><p align="center">F1 ↑</p></td>
-      <td><p align="center">Flat list</p></td>
+      <td><p align="center">Flat</p></td>
       <td><p align="center">0.240</p></td>
       <td><p align="center">$${\color{blue}0.314}$$</p></td>
       <td><p align="center">0.265</p></td>
@@ -178,7 +178,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.266</p></td>
     </tr>
     <tr>
-      <td><p align="center">Temporal narrative</p></td>
+      <td><p align="center">Temporal</p></td>
       <td><p align="center">0.177</p></td>
       <td><p align="center">0.214</p></td>
       <td><p align="center">$${\color{blue}0.274}$$</p></td>
@@ -186,7 +186,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.268</p></td>
     </tr>
     <tr>
-      <td><p align="center">Scene-structured</p></td>
+      <td><p align="center">Scene</p></td>
       <td><p align="center">0.160</p></td>
       <td><p align="center">0.214</p></td>
       <td><p align="center">$${\color{blue}0.295}$$</p></td>
@@ -194,7 +194,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">0.230</p></td>
     </tr>
     <tr>
-      <td><p align="center">Chain-of-Thought</p></td>
+      <td><p align="center">CoT</p></td>
       <td><p align="center">0.174</p></td>
       <td><p align="center">0.156</p></td>
       <td><p align="center">$${\color{blue}0.178}$$</p></td>
@@ -207,7 +207,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
     <!-- avg. M -->
     <tr>
       <td rowspan="4"><p align="center">avg. $$\mathcal{M}$$</p></td>
-      <td><p align="center">Flat list</p></td>
+      <td><p align="center">Flat</p></td>
       <td><p align="center">12.359</p></td>
       <td><p align="center">12.116</p></td>
       <td><p align="center">11.016</p></td>
@@ -215,7 +215,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">10.663</p></td>
     </tr>
     <tr>
-      <td><p align="center">Temporal narrative</p></td>
+      <td><p align="center">Temporal</p></td>
       <td><p align="center">26.062</p></td>
       <td><p align="center">25.586</p></td>
       <td><p align="center">20.130</p></td>
@@ -223,7 +223,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">22.068</p></td>
     </tr>
     <tr>
-      <td><p align="center">Scene-structured</p></td>
+      <td><p align="center">Scene</p></td>
       <td><p align="center">27.491</p></td>
       <td><p align="center">25.694</p></td>
       <td><p align="center">19.179</p></td>
@@ -231,7 +231,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">24.293</p></td>
     </tr>
     <tr>
-      <td><p align="center">Chain-of-Thought</p></td>
+      <td><p align="center">CoT</p></td>
       <td><p align="center">39.715</p></td>
       <td><p align="center">37.485</p></td>
       <td><p align="center">38.352</p></td>
@@ -241,7 +241,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
     <!-- M/L ratio -->
     <tr>
       <td rowspan="4"><p align="center">$$\mathcal{M}/\mathcal{L}$$ ratio</p></td>
-      <td><p align="center">Flat list</p></td>
+      <td><p align="center">Flat</p></td>
       <td><p align="center">3.810</p></td>
       <td><p align="center">3.722</p></td>
       <td><p align="center">3.303</p></td>
@@ -249,7 +249,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">3.230</p></td>
     </tr>
     <tr>
-      <td><p align="center">Temporal narrative</p></td>
+      <td><p align="center">Temporal</p></td>
       <td><p align="center">8.046</p></td>
       <td><p align="center">7.929</p></td>
       <td><p align="center">6.390</p></td>
@@ -257,7 +257,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">6.740</p></td>
     </tr>
     <tr>
-      <td><p align="center">Scene-structured</p></td>
+      <td><p align="center">Scene</p></td>
       <td><p align="center">8.553</p></td>
       <td><p align="center">7.909</p></td>
       <td><p align="center">5.749</p></td>
@@ -265,7 +265,7 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
       <td><p align="center">3.230</p></td>
     </tr>
     <tr>
-      <td><p align="center">Chain-of-Thought</p></td>
+      <td><p align="center">CoT</p></td>
       <td><p align="center">12.416</p></td>
       <td><p align="center">11.161</p></td>
       <td><p align="center">12.007</p></td>
