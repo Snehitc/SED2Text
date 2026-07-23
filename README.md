@@ -364,9 +364,22 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
 # Directory Structure
 ```
 SED2Text
+  |___dataset
+        |___AudioSet_dataloader.py
+  |___models
+        |___SED.py
+        |___LanguageModel.py
+  |___score
+        |___score.py
+  |___sample_files
+        |___WsaOJT2SsPg.flac
   |___docs
         |___Pipeline_scaled.png
-        |___prompts_scaled.png
+        |___prompts_scaled.pngc
+  |___config.yaml
+  |___inference.py
+  |___inference_example.py
+  |___requirements.txt
   |___LICENSE
   |___README.md
 ```
