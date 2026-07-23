@@ -27,6 +27,24 @@ pip install -r requirements.txt
 pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
 ```
 
+
+# Usage
+### Inference
+```
+python inference.py
+```
+
+### Inference (one example)
+```
+python inference_example.py
+```
+
+### Score Prediction
+```
+python score/score.py
+```
+
+
 # Pipeline 
 > 1. PretrainedSED: BEATs-based,
 > 2. LM: Qwen2.5-1.5B-Instruct
