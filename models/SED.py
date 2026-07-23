@@ -1,7 +1,3 @@
-'''
-import sys
-sys.path.append('/home/u5049807/PretrainedSED/')
-'''
 import os
 import torch
 import pandas as pd
