@@ -404,17 +404,18 @@ url = {https://doi.org/10.13140/RG.2.2.34477.45282}
 ```
 
 # ToDo
-- [ ] Code
-  - [ ] Inference
-  - [ ] Inference One Example
-  - [ ] Result replication
-  - [ ] Score
+- [x] Code
+  - [x] Inference
+  - [x] Inference One Example
+  - [x] Score
+  - [ ] config
 - [ ] README
   - [x] Pipeline
   - [x] Example
   - [x] Results
-  - [ ] Setup
-  - [ ] Directory Structure
+  - [x] Setup
+  - [x] Directory Structure
   - [ ] Citation
-- [ ] Requirements
+- [x] Requirements
+- [x] Result replication
 
