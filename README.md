@@ -44,6 +44,7 @@ python inference.py
 ```
 python score/score.py
 ```
+> To replicate our results use our `prediction_results.zip` from [Replicate Results](https://github.com/Snehitc/SED2Text/releases/tag/prediction_results) 
 
 ### Inference (one example)
 ```
