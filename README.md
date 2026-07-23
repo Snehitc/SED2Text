@@ -61,7 +61,10 @@ python inference_example.py
   6                    Music   7.24   10.00  WsaOJT2SsPg        0.65
   4             Male singing   7.48   10.00  WsaOJT2SsPg        0.47
   
-  Generated Text (flat): ['The audio clip begins with background noise, which gradually becomes more prominent as it builds up over time. The next event is a telephone dialing, followed by a busy signal and another busy signal before the music starts playing.']
+  Generated Text (flat): ['The audio clip begins with background noise, which gradually becomes
+                          more prominent as it builds up over time. The next event is a telephone
+                          dialing, followed by a busy signal and another busy signal before the
+                          music starts playing.']
   
   Score Predicton:
   Loading narrations & detections: 100%|███████████████████████████████████████████████████| 1/1 [00:00<00:00, 295.44file/s]
