@@ -4,6 +4,18 @@
 - The updates to this repository are yet to be finished.
 - The `Under Construction` tag will be removed once updates are completed.
 
+# Setup
+### Create Environment
+```
+conda create -n SED2Text python=3.12
+```
+
+
+### Install torch (CUDA version)
+```
+conda install pytorch==2.5.1 torchaudio==2.5.1 pytorch-cuda=12.1 -c pytorch -c nvidia
+```
+
 # Pipeline 
 > 1. PretrainedSED: BEATs-based,
 > 2. LM: Qwen2.5-1.5B-Instruct
