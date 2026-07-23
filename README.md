@@ -31,6 +31,8 @@ pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.
 ```
 git clone https://github.com/fschmid56/PretrainedSED.git
 ```
+> $$\color{blue}[Important]$$: Manual change required in _config.py_ file if _PretrainedSED_
+> Replace `RESOURCES_FOLDER = "resources"` to `RESOURCES_FOLDER = "PretrainedSED/resources"`
 
 # Usage
 ### Inference
