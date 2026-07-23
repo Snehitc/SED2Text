@@ -404,7 +404,7 @@ url = {https://doi.org/10.13140/RG.2.2.34477.45282}
 ```
 
 # ToDo
-- [x] Code
+- [ ] Code
   - [x] Inference
   - [x] Inference One Example
   - [x] Score
@@ -417,5 +417,5 @@ url = {https://doi.org/10.13140/RG.2.2.34477.45282}
   - [x] Directory Structure
   - [ ] Citation
 - [x] Requirements
-- [x] Result replication
+- [x] Files to replicate Result
 
