@@ -27,7 +27,7 @@ pip install -r requirements.txt
 pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
 ```
 
-### 5. Add PretrainedSED from GitHub
+### 5. Add [PretrainedSED](https://github.com/fschmid56/PretrainedSED) from GitHub
 ```
 git clone https://github.com/fschmid56/PretrainedSED.git
 ```
