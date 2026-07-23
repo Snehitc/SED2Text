@@ -44,40 +44,39 @@ python score/score.py
 python inference_example.py
 ```
 > example output
->
-```
-Loading pretrained checkpoint:  BEATs_strong_1
-[PretrainedSED] Loaded 'BEATs' → device=cuda
-Loading weights: 100%|██████████████████████████████████████████████████████████████| 290/290 [00:02<00:00, 108.37it/s]
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-
-SED Prediction: 
-               event_label  onset  offset     filename  confidence
-0         Background noise   4.20   10.00  WsaOJT2SsPg        0.26
-1              Busy signal   5.60    5.88  WsaOJT2SsPg        0.10
-2              Busy signal   6.00    6.64  WsaOJT2SsPg        0.10
-3              Busy signal   6.84    7.04  WsaOJT2SsPg        0.10
-4             Male singing   7.48   10.00  WsaOJT2SsPg        0.47
-5               Mechanisms   4.24    7.80  WsaOJT2SsPg        0.16
-6                    Music   7.24   10.00  WsaOJT2SsPg        0.65
-7  Telephone dialing, DTMF   5.48    7.48  WsaOJT2SsPg        0.13
-
-Generated Text (flat): ["The audio clip begins with background noise and then shifts to mechanisms, followed by a busy signal before transitioning to music. The male singer's voice can be heard during the busiest part of the clip."]
-
-Score Predicton:
-Loading narrations & detections: 100%|████████████████████████████████████████████████| 1/1 [00:00<00:00, 284.22file/s]
-Extracting event mentions: 100%|██████████████████████████████████████████████████████| 1/1 [00:00<00:00,  6.62file/s]
-Loading weights: 100%|████████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 1210.55it/s]
-Encoding 13 mentions and 6 labels on GPU...
-Batches: 100%|████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 24.51it/s]
-Batches: 100%|████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 171.18it/s]
-Computing Scores: 100%|███████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 156.77file/s]
-+-------+-------+-------------+----------+-------+---------+---------+-------------+
-|   TOA |    HD |   Precision |   Recall |    F1 |   avg M |   avg L |   M/L ratio |
-+=======+=======+=============+==========+=======+=========+=========+=============+
-| 1.000 | 0.400 |       0.385 |    0.833 | 0.526 |      13 |       6 |       2.167 |
-+-------+-------+-------------+----------+-------+---------+---------+-------------+
-```
+* ```
+  Loading pretrained checkpoint:  BEATs_strong_1
+  [PretrainedSED] Loaded 'BEATs' → device=cuda
+  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  Loading weights: 100%|█████████████████████████████████████████████████████████████████| 290/290 [00:02<00:00, 105.67it/s]
+  
+  SED Prediction: 
+                 event_label  onset  offset     filename  confidence
+  0         Background noise   4.20   10.00  WsaOJT2SsPg        0.26
+  5               Mechanisms   4.24    7.80  WsaOJT2SsPg        0.16
+  7  Telephone dialing, DTMF   5.48    7.48  WsaOJT2SsPg        0.13
+  1              Busy signal   5.60    5.88  WsaOJT2SsPg        0.10
+  2              Busy signal   6.00    6.64  WsaOJT2SsPg        0.10
+  3              Busy signal   6.84    7.04  WsaOJT2SsPg        0.10
+  6                    Music   7.24   10.00  WsaOJT2SsPg        0.65
+  4             Male singing   7.48   10.00  WsaOJT2SsPg        0.47
+  
+  Generated Text (flat): ['The audio clip begins with background noise, which gradually becomes more prominent as it builds up over time. The next event is a telephone dialing, followed by a busy signal and another busy signal before the music starts playing.']
+  
+  Score Predicton:
+  Loading narrations & detections: 100%|███████████████████████████████████████████████████| 1/1 [00:00<00:00, 295.44file/s]
+  Extracting event mentions: 100%|█████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  5.46file/s]
+  Loading weights: 100%|███████████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 1226.96it/s]
+  Encoding 15 mentions and 6 labels on GPU...
+  Batches: 100%|███████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 19.59it/s]
+  Batches: 100%|███████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 70.75it/s]
+  Computing Scores: 100%|██████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 60.33file/s]
+  +-------+-------+-------------+----------+-------+---------+---------+-------------+
+  |   TOA |    HD |   Precision |   Recall |    F1 |   avg M |   avg L |   M/L ratio |
+  +=======+=======+=============+==========+=======+=========+=========+=============+
+  | 1.000 | 0.359 |       0.267 |    0.667 | 0.381 |      15 |       6 |       2.500 |
+  +-------+-------+-------------+----------+-------+---------+---------+-------------+
+  ```
 
 # Pipeline 
 > 1. PretrainedSED: BEATs-based,
