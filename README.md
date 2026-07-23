@@ -4,6 +4,13 @@
 - The updates to this repository are yet to be finished.
 - The `Under Construction` tag will be removed once updates are completed.
 
+# Pipeline 
+> 1. PretrainedSED: BEATs-based,
+> 2. LM: Qwen2.5-1.5B-Instruct
+
+![Pipeline](docs/Pipeline_scaled.png)
+
+
 # Setup
 ### 1. Clone the repository
 ```
@@ -88,11 +95,7 @@ python inference_example.py
   +-------+-------+-------------+----------+-------+---------+---------+-------------+
   ```
 
-# Pipeline 
-> 1. PretrainedSED: BEATs-based,
-> 2. LM: Qwen2.5-1.5B-Instruct
 
-![Pipeline](docs/Pipeline_scaled.png)
 
 # Example: All prompt types
 > Prompt type - Flat List, Temporal Narrative, Scene Structured, Chain-of-Thought (CoT)\
