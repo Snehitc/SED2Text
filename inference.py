@@ -5,7 +5,7 @@ from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from dataset.AudioSet_dataloader import build_audioset_strong_loader, build_label_vocab
-from SED2Text.models.SED import SED_Prediction, load_pretrained_sed
+from models.SED import SED_Prediction, load_pretrained_sed
 from models.LanguageModel import Save_Text_Generated, Get_Text_Generated
 
 import torch
