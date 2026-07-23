@@ -7,7 +7,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torchaudio
 import soundfile as sf
 
-from models.PretrainedSED import SED_Prediction, load_pretrained_sed
+from SED2Text.models.SED import SED_Prediction, load_pretrained_sed
 from models.LanguageModel import Get_Text_Generated
 from score import score
 
