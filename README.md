@@ -5,24 +5,24 @@
 - The `Under Construction` tag will be removed once updates are completed.
 
 # Setup
-### Clone the repository
+### 1. Clone the repository
 ```
 git clone https://github.com/Snehitc/SED2Text.git
 cd SED2Text
 ```
 
-### Create Environment
+### 2. Create Environment
 ```
 conda create -n SED2Text python=3.12
 conda activate SED2Text
 ```
 
-### Install requirements
+### 3. Install requirements
 ```
 pip install -r requirements.txt
 ```
 
-### Install torch (CUDA version)
+### 4. Install torch (CUDA version)
 ```
 pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
 ```
