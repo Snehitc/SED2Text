@@ -17,10 +17,6 @@ SYSTEM_PROMPT = (
 
 
 MAX_TOKENS = {"flat": 50, "temporal": 100, "scene": 100, "cot": 400}
-# ── prompt builders stay exactly the same ────────────────────
-# (format_detections, build_prompt_flat, build_prompt_temporal,
-#  build_prompt_scene, build_prompt_cot, PROMPT_BUILDERS — unchanged)
-
 
 
 
