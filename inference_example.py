@@ -13,9 +13,6 @@ from score import score
 
 
 
-
-
-
 # --------- audio load ---------
 def load_audio(audio_path, target_sr=16000, clip_duration=10.0):
     data, sr = sf.read(audio_path, dtype="float32", always_2d=True)
@@ -82,11 +79,12 @@ if __name__ == '__main__':
 
 
     # --- Load audio ---
+    clip_duration = 10.0
     audio_path = "sample_files/WsaOJT2SsPg.flac"
     waveform, meta = load_audio(audio_path)
 
     # --- Prediction ---
-    preds_df, gt_df = SED_Prediction(model_SED, waveform, meta)
+    preds_df, gt_df = SED_Prediction(model_SED, waveform, meta, clip_duration)
     generated_text = Get_Text_Generated(model_text, tokenizer, preds_df, style)
 
     print(f"\nSED Prediction: \n{preds_df.sort_values(by=["onset", "confidence"], ascending=[True, False])}")
