@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 from scipy.ndimage import median_filter as scipy_median_filter
 
+import sys
+sys.path.append("PretrainedSED/")
 # ----------------------------------------
 # PretrainedSED imports (from their repo)
 # ----------------------------------------
