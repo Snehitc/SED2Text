@@ -182,9 +182,8 @@ def decode_predictions_pretrained(
 
     preds_df = decoded_predictions[threshold].copy()
 
-    # Rename 'event_label' already correct; add confidence from postprocessed scores
+    # Add confidence from postprocessed scores
     # batched_decode_preds output columns: event_label, onset, offset, filename
-    # We add confidence from the raw probability at the midpoint of the segment
     if "confidence" not in preds_df.columns:
         preds_df["confidence"] = threshold   # fallback: constant confidence
 
