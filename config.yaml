@@ -7,6 +7,7 @@ model_name_Text: "HuggingFaceTB/SmolLM2-360M-Instruct"
 # text style
 style: "flat" # Options: [flat, temporal, scene, cot]
 
+sample_rate: 16000
 
 # path
 path_meta: "/work/u5049807/AudioSet-Strong/metadata"
