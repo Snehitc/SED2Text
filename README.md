@@ -20,7 +20,7 @@ cd SED2Text
 
 ### 2. Create Environment
 ```
-conda create -n SED2Text python=3.12
+conda create -n SED2Text python=3.11
 conda activate SED2Text
 ```
 
