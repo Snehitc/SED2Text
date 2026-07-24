@@ -18,9 +18,6 @@ from PretrainedSED.data_util import audioset_classes
 # ----------
 # CONSTANTS
 # ----------
-SAMPLE_RATE     = 16_000
-CLIP_DURATION   = 10.0          # seconds — fixed for AudioSet-Strong
-CLIP_SAMPLES    = int(CLIP_DURATION * SAMPLE_RATE)
 PRETRAINED_CLASSES = audioset_classes.as_strong_train_classes  # list[str], 447 items
 N_CLASSES       = len(PRETRAINED_CLASSES)                       # 447
 MEDIAN_FILTER_FRAMES = 12   # 12 frames × 40ms = 0.48s, matches paper's postprocessing
@@ -146,9 +143,9 @@ def _attach_confidence(
 def decode_predictions_pretrained(
     probs:        torch.Tensor,    # [B, C=447, T=250]  CPU tensor, float32
     segment_ids:  list,            # list[str], length B
+    clip_duration: float,
     threshold:    float = 0.1,
     median_filter_frames: int = MEDIAN_FILTER_FRAMES,
-    clip_duration: float = CLIP_DURATION,
 ) -> pd.DataFrame:
     """
     Decodes frame-level probabilities into event segments using
@@ -192,7 +189,7 @@ def decode_predictions_pretrained(
     return preds_df.reset_index(drop=True)
 
 
-def SED_Prediction(model_SED, waveforms, metas, targets=None, idx2name=None):
+def SED_Prediction(model_SED, waveforms, metas, clip_duration, targets=None, idx2name=None):
     segment_ids = [os.path.splitext(m["filename"])[0] for m in metas]
 
     # Inference
@@ -209,11 +206,11 @@ def SED_Prediction(model_SED, waveforms, metas, targets=None, idx2name=None):
         segment_ids,
         threshold            = 0.1,
         median_filter_frames = MEDIAN_FILTER_FRAMES,
-        clip_duration        = CLIP_DURATION,
+        clip_duration        = clip_duration,
     )
 
     preds_df = _attach_confidence(
-        preds_df, probs_filtered, segment_ids, CLIP_DURATION)
+        preds_df, probs_filtered, segment_ids, clip_duration)
 
     preds_df = preds_df if not preds_df.empty else pd.DataFrame(
         columns=["filename", "event_label", "onset", "offset", "confidence"])
