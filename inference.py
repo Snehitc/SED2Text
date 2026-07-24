@@ -90,6 +90,7 @@ if __name__ == "__main__":
     result_dir = config['result_dir']
 
     # Parameters
+    sample_rate = config['sample_rate']
     batch_size = config['batch_size']
     num_workers = config['num_workers']
 
@@ -101,6 +102,7 @@ if __name__ == "__main__":
     audioset_eval_loader = build_audioset_strong_loader(
                                 tsv_path   = os.path.join(path_meta, eval_file),
                                 audio_dir  = path_audio,
+                                target_sr  = sample_rate,
                                 label2idx  = label2idx,
                                 batch_size = batch_size,
                                 shuffle    = False,
