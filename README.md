@@ -41,6 +41,12 @@ git clone https://github.com/fschmid56/PretrainedSED.git
 > $$\color{blue}[Important]$$: Manual change required in _config.py_ file of _PretrainedSED_ \
 > Replace `RESOURCES_FOLDER = "resources"` to `RESOURCES_FOLDER = "PretrainedSED/resources"`
 
+
+# Dataset
+I used the AudioSet-Strong (eval split) dataset for all the experiments.
+| Download: | [official](https://research.google.com/audioset/download_strong.html) |
+| :-: | :-: |
+
 # Usage
 ### Inference
 ```
