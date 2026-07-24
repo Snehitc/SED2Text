@@ -44,12 +44,12 @@ def Create_dirs(result_dir, model_name_Text, style):
     return SED_Pred_dir, output_path
 
 @torch.no_grad()
-def run_inference(model_SED, model_text, tokenizer, audioset_eval_loader, style):
+def run_inference(model_SED, model_text, tokenizer, audioset_eval_loader, clip_duration, style):
     model_SED.eval()
     model_text.eval()
     preds_df_list, gt_df_list = [], []
     for waveforms, targets, metas in tqdm(audioset_eval_loader, desc=f"[Generating] SED2Text - {style}"):
-        preds_df, gt_df = SED_Prediction(model_SED, waveforms, metas, targets=targets, idx2name=idx2name)
+        preds_df, gt_df = SED_Prediction(model_SED, waveforms, metas, clip_duration, targets=targets, idx2name=idx2name)
         Save_Text_Generated(model_text, tokenizer, preds_df, style, output_path)
         
         preds_df_list.append(preds_df)
@@ -80,6 +80,11 @@ if __name__ == "__main__":
     # Text style
     style = config['style']
 
+    # Audio parameters
+    sample_rate = config['sample_rate']
+    clip_duration = config['clip_duration']
+
+
     # Path
     path_meta  = config['path_meta']
     path_audio = config['path_audio']
@@ -90,7 +95,6 @@ if __name__ == "__main__":
     result_dir = config['result_dir']
 
     # Parameters
-    sample_rate = config['sample_rate']
     batch_size = config['batch_size']
     num_workers = config['num_workers']
 
@@ -102,7 +106,7 @@ if __name__ == "__main__":
     audioset_eval_loader = build_audioset_strong_loader(
                                 tsv_path   = os.path.join(path_meta, eval_file),
                                 audio_dir  = path_audio,
-                                target_sr  = sample_rate,
+                                target_sr = sample_rate,
                                 label2idx  = label2idx,
                                 batch_size = batch_size,
                                 shuffle    = False,
@@ -111,4 +115,4 @@ if __name__ == "__main__":
     # ------ Setup and run inference ------
     SED_Pred_dir, output_path = Create_dirs(result_dir, model_name_Text, style)
     model_SED, model_text, tokenizer = model_setup(model_name_SED, model_name_Text, device)
-    run_inference(model_SED, model_text, tokenizer, audioset_eval_loader, style)
+    run_inference(model_SED, model_text, tokenizer, audioset_eval_loader, clip_duration, style)
