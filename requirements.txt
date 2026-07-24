@@ -11,3 +11,4 @@ tqdm==4.67.3
 transformers==5.12.1
 sed-scores-eval==0.0.4
 setuptools==80.10.2
+timm
