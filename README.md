@@ -1,10 +1,4 @@
 # SED2Text
-# 🚧 Under Construction 🚧
-
-- The updates to this repository are yet to be finished.
-- The `Under Construction` tag will be removed once updates are completed.
-
-# Pipeline 
 > 1. PretrainedSED: BEATs-based,
 > 2. LM: Qwen2.5-1.5B-Instruct
 
