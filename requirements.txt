@@ -1,5 +1,6 @@
 numpy
 scipy
+timm
 nnAudio
 helpers==0.2.0
 pandas==3.0.5
@@ -13,4 +14,3 @@ accelerate==1.14.0
 transformers==5.12.1
 sed-scores-eval==0.0.4
 setuptools==80.10.2
-timm
