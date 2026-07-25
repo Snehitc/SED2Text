@@ -24,14 +24,15 @@ conda create -n SED2Text python=3.11
 conda activate SED2Text
 ```
 
-### 3. Install requirements
+
+### 3. Install torch (CUDA version)
 ```
-pip install -r requirements.txt
+pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
 ```
 
-### 4. Install torch (CUDA version)
+### 4. Install requirements
 ```
-pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
 ```
 
 ### 5. Add [PretrainedSED](https://github.com/fschmid56/PretrainedSED) from GitHub
