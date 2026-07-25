@@ -44,7 +44,7 @@ git clone https://github.com/fschmid56/PretrainedSED.git
 
 # Dataset
 I used the AudioSet-Strong (eval split) dataset for all the experiments.
-| Download: | [official](https://research.google.com/audioset/download_strong.html) |
+| Official Page: | [AudioSet-Strong](https://research.google.com/audioset/download_strong.html) |
 | :-: | :-: |
 
 # Usage
