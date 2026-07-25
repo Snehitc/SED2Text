@@ -1,5 +1,6 @@
 numpy
 scipy
+nnAudio
 helpers==0.2.0
 pandas==3.0.5
 PyYAML==6.0.3
@@ -8,6 +9,7 @@ soundfile==0.13.1
 spacy==3.8.14
 tabulate==0.10.0
 tqdm==4.67.3
+accelerate==1.14.0
 transformers==5.12.1
 sed-scores-eval==0.0.4
 setuptools==80.10.2
