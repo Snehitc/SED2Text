@@ -1,3 +1,7 @@
+[![Preprint](https://img.shields.io/badge/Preprint-ResearchGate-white?logo=ResearchGate)](https://www.researchgate.net/publication/410048963_Structured_Event-to-Text_Generation_for_Zero-Shot_Audio_Description_A_Prompt_Study_Across_LLM_Sizes)
+[![Example](https://img.shields.io/badge/pdf-examples-%23F5A525)]()
+
+
 # SED2Text
 > 1. PretrainedSED: BEATs-based,
 > 2. LM: Qwen2.5-1.5B-Instruct
