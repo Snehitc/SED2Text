@@ -417,11 +417,11 @@ url = {https://doi.org/10.13140/RG.2.2.34477.45282}
 ```
 
 # ToDo
-- [ ] Code
+- [x] Code
   - [x] Inference
   - [x] Inference One Example
   - [x] Score
-  - [ ] config
+  - [x] config
 - [ ] README
   - [x] Pipeline
   - [x] Example
