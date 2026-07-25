@@ -376,11 +376,23 @@ Table: Results across five LMs and four prompt formats ($$avg. \mathcal{L} = 4.2
 SED2Text
   |___dataset
         |___AudioSet_dataloader.py
+        |___AudioSet-Strong    # Download from source
+              |___audio
+                    |___-0jeONf82dE.flac
+                    |___ ...
+              |___metadata
+                    |___audioset_train_strong.tsv  # Optional
+                    |___audioset_eval_strong.tsv
+                    |___mid_to_display_name.tsv
   |___models
         |___SED.py
         |___LanguageModel.py
   |___score
         |___score.py
+  |___prediction_results     # Generated after running inference.py
+        |___SED
+        |___Text
+        |___Score            # Generated after running score/score.py
   |___sample_files
         |___WsaOJT2SsPg.flac
   |___docs
