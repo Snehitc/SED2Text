@@ -87,7 +87,7 @@ if __name__ == '__main__':
     preds_df, gt_df = SED_Prediction(model_SED, waveform, meta, clip_duration)
     generated_text = Get_Text_Generated(model_text, tokenizer, preds_df, style)
 
-    print(f"\nSED Prediction: \n{preds_df.sort_values(by=["onset", "confidence"], ascending=[True, False])}")
+    print(f"\nSED Prediction: \n{preds_df.sort_values(by=['onset', 'confidence'], ascending=[True, False])}")
     print(f"\nGenerated Text ({style}): {generated_text}")
 
 
