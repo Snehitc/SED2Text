@@ -380,7 +380,7 @@ SED2Text
                     |___-0jeONf82dE.flac
                     |___ ...
               |___metadata
-                    |___audioset_train_strong.tsv  # Optional
+                    |___audioset_train_strong.tsv
                     |___audioset_eval_strong.tsv
                     |___mid_to_display_name.tsv
   |___models
