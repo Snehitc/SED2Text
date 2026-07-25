@@ -1,6 +1,6 @@
 [![Preprint](https://img.shields.io/badge/Preprint-ResearchGate-white?logo=ResearchGate)](https://www.researchgate.net/publication/410048963_Structured_Event-to-Text_Generation_for_Zero-Shot_Audio_Description_A_Prompt_Study_Across_LLM_Sizes)
-[![Example](https://img.shields.io/badge/pdf-examples-%23F5A525)](https://cdn.jsdelivr.net/gh/Snehitc/SED2Text@main/docs/Supplementary_material_Example_SED2Text.pdf)
-
+[![Example](https://img.shields.io/badge/PDF-examples-%23F5A525)](https://cdn.jsdelivr.net/gh/Snehitc/SED2Text@main/docs/Supplementary_material_Example_SED2Text.pdf)
+[![Replicate_results](https://img.shields.io/badge/Zip%20files-Replicate%20_results-green)](https://github.com/Snehitc/SED2Text/releases/tag/prediction_results)
 
 
 # SED2Text
