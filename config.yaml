@@ -12,8 +12,8 @@ sample_rate: 16000
 clip_duration: 10.0
 
 # path
-path_meta: "/work/u5049807/AudioSet-Strong/metadata"
-path_audio: "/work/u5049807/AudioSet-Strong/audio"
+path_meta: "/dataset/AudioSet-Strong/metadata"
+path_audio: "/dataset/AudioSet-Strong/audio"
 train_file: "audioset_train_strong.tsv"
 eval_file: "audioset_eval_strong.tsv"
 mid2name_file: "mid_to_display_name.tsv"
