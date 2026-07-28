@@ -69,7 +69,7 @@ python inference_example.py
   [PretrainedSED] Loaded 'BEATs' → device=cuda
   Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable
   higher rate limits and faster downloads.
-  Loading weights: 100%|███████████████████████████████████████| 290/290 [00:02<00:00, 105.67it/s]
+  Loading weights: 100%|████████████████████████████████████████| 290/290 [00:02<00:00, 105.67it/s]
   
   SED Prediction: 
                  event_label  onset  offset     filename  confidence
@@ -87,12 +87,12 @@ python inference_example.py
                   by a busy signal and another busy signal before the music starts playing.']
   
   Score Predicton:
-  Loading narrations & detections: 100%|█████████████████████████| 1/1 [00:00<00:00, 295.44file/s]
+  Loading narrations & detections: 100%|████████████████████████| 1/1 [00:00<00:00, 295.44file/s]
   Extracting event mentions: 100%|███████████████████████████████| 1/1 [00:00<00:00,  5.46file/s]
-  Loading weights: 100%|█████████████████████████████████████████| 103/103 [00:00<00:00, 1226.96it/s]
+  Loading weights: 100%|█████████████████████████████████████| 103/103 [00:00<00:00, 1226.96it/s]
   Encoding 15 mentions and 6 labels on GPU...
-  Batches: 100%|█████████████████████████████████████████████████| 1/1 [00:00<00:00, 19.59it/s]
-  Batches: 100%|█████████████████████████████████████████████████| 1/1 [00:00<00:00, 70.75it/s]
+  Batches: 100%|███████████████████████████████████████████████████| 1/1 [00:00<00:00, 19.59it/s]
+  Batches: 100%|███████████████████████████████████████████████████| 1/1 [00:00<00:00, 70.75it/s]
   Computing Scores: 100%|████████████████████████████████████████| 1/1 [00:00<00:00, 60.33file/s]
   +-------+-------+-------------+----------+-------+---------+---------+-------------+
   |   TOA |    HD |   Precision |   Recall |    F1 |   avg M |   avg L |   M/L ratio |
