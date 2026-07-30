@@ -409,15 +409,15 @@ SED2Text
 This work has been submitted to the DCASE Workshop 2026 and is under review at present.\
 Preprint is available with the following citation in "ResearchGate"
 > $$\color{blue}Request$$_: I wanted to submit a preprint to arXiv, but I didn't get anyone to endorse my paper. Based on my work (this or any previous one), I would appreciate endorsements for an arXiv (future) submission._
-```
+```bibtex
 @unknown{SED2Text,
-author = {Chunarkar, Snehit and Lee, Chi-Chun},
-year = {2026},
-month = {07},
-pages = {},
-title = {Structured Event-to-Text Generation for Zero-Shot Audio Description: A Prompt Study Across LLM Sizes},
-doi = {10.13140/RG.2.2.34477.45282},
-url = {https://doi.org/10.13140/RG.2.2.34477.45282}
+  author = {Chunarkar, Snehit and Lee, Chi-Chun},
+  year = {2026},
+  month = {07},
+  pages = {},
+  title = {Structured Event-to-Text Generation for Zero-Shot Audio Description: A Prompt Study Across LLM Sizes},
+  doi = {10.13140/RG.2.2.34477.45282},
+  url = {https://doi.org/10.13140/RG.2.2.34477.45282}
 }
 ```
 
