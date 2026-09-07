@@ -406,9 +406,6 @@ SED2Text
 ```
 
 # Citation
-This work has been submitted to the DCASE Workshop 2026 and is under review at present.\
-Preprint is available with the following citation in "ResearchGate"
-> $$\color{blue}Request$$_: I wanted to submit a preprint to arXiv, but I didn't get anyone to endorse my paper. Based on my work (this or any previous one), I would appreciate endorsements for an arXiv (future) submission._
 ```bibtex
 @unknown{SED2Text,
   author = {Chunarkar, Snehit and Lee, Chi-Chun},
@@ -420,20 +417,3 @@ Preprint is available with the following citation in "ResearchGate"
   url = {https://doi.org/10.13140/RG.2.2.34477.45282}
 }
 ```
-
-# ToDo
-- [x] Code
-  - [x] Inference
-  - [x] Inference One Example
-  - [x] Score
-  - [x] config
-- [ ] README
-  - [x] Pipeline
-  - [x] Example
-  - [x] Results
-  - [x] Setup
-  - [x] Directory Structure
-  - [ ] Citation
-- [x] Requirements
-- [x] Files to replicate Result
-
